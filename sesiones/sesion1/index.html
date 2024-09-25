@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicis CSS</title>
+    <style>
+        h1 {
+            color: red;
+            font-size: 32px;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        /* Exercici 2 */
+        
+        .important {
+            color: blue;
+        }
+        
+        .secondary {
+            color: green;
+        }
+        /* Exercici 3 */
+        
+        p {
+            font-size: 24px;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+        }
+        /* Exercici 4 */
+        
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        }
+        
+        h1.gradient {
+            color: white;
+        }
+        
+        p.gradient {
+            color: black;
+        }
+        /* Exercici 5 */
+        
+        .square {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            padding: 20px;
+            border: 5px solid purple;
+            background-color: lightblue;
+        }
+        /* Exercici 6 */
+        
+        .box {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid green;
+            box-sizing: border-box;
+            background-color: lightyellow;
+        }
+        /* Exercici 7 */
+        
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .box.flex {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            margin: 10px;
+        }
+        /* Exercici 8 */
+        
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: darkblue;
+        }
+        
+        button:focus {
+            outline: 2px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Això és un títol estilitzat amb CSS</h1>
+
+    <h1 class="important">Exercici 1: Títol estilitzat</h1>
+
+    <h2>Exercici 2: Paràgraf amb classe secondary</h2>
+    <p class="secondary">Aquest és un paràgraf amb la classe secondary.</p>
+
+    <h2>Exercici 3: Text centrat</h2>
+    <p>Aquest text està centrat i estilitzat.</p>
+
+    <h2>Exercici 4: Fons gradient</h2>
+    <h1 class="gradient">Títol amb fons gradient</h1>
+    <p class="gradient">Aquest és un paràgraf amb fons gradient.</p>
+
+    <h2>Exercici 5: Quadrats amb marge i padding</h2>
+    <div class="square"></div>
+
+    <h2>Exercici 6: Box model</h2>
+    <div class="box"></div>
+
+    <h2>Exercici 7: Flexbox</h2>
+    <div class="container">
+        <div class="box flex"></div>
+        <div class="box flex"></div>
+        <div class="box flex"></div>
+    </div>
+
+    <h2>Exercici 8: Botó amb transició</h2>
+    <button>Fes clic aquí!</button>
+</body>
+
+</html>
