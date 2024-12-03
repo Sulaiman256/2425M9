@@ -1,0 +1,21 @@
+{
+    "name": "uf2m9",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "vite": "^5.4.11"
+    },
+    "devDependencies": {
+        "sass": "^1.81.1"
+    }
+}
